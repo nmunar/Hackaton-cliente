@@ -153,9 +153,27 @@ body {
     display: flex;
     flex-direction:column;
     justify-content: center;
+
+
 }
 .campo3{
     display: flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content: left;
+    font-size: 12px;
+}
+#mt{
+    display: flex;
+    padding-bottom: 15px;
+}
+#contenedor{
+    display: flex;
+    flex-direction:column;
+}
+#bot{
+    padding-top: 15px;
+}
+
+#bot2{
+    padding-bottom: 15px;
 }
