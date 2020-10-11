@@ -80,3 +80,8 @@ $(".submit").click(function(){
 	return false;
 })
 
+function enviar(pagina){
+	document.cambiar.action = pagina;
+	document.cambiar.submit();
+	
+	}
